@@ -30,7 +30,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <androidx.recyclerview.widget.RecyclerView
+            <com.padcmyanmar.padcx.padc_x_recyclerview_ypst.veiws.components.SmartRecyclerView
                 android:id="@+id/rvNews"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -44,5 +44,14 @@
            layout="@layout/view_pod_empty"/>
 
     </RelativeLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btnNavigate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:layout_margin="@dimen/margin_medium"
+        />
+
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
