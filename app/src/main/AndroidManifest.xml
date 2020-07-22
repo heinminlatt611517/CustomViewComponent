@@ -13,22 +13,21 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity
-            android:name=".activities.NewsDetailActivity"
-            android:theme="@style/AppTheme.NoActionBar.TranslucentStatusBar">
-
-        </activity>
-        <activity
-            android:name=".activities.MainActivity"
-            android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name=".activities.FanControlActivity"></activity>
+        <activity android:name=".activities.CustomComponentActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <activity android:name=".activities.ModifyCustomViewActivity"/>
+        <activity
+            android:name=".activities.NewsDetailActivity"
+            android:theme="@style/AppTheme.NoActionBar.TranslucentStatusBar" />
+        <activity
+            android:name=".activities.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".activities.ModifyCustomViewActivity" />
     </application>
 
 </manifest>
